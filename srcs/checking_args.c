@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   checking_args.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aalseri <aalseri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: aalseri <aalseri@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/17 18:09:48 by aalseri           #+#    #+#             */
-/*   Updated: 2022/05/08 12:33:16 by aalseri          ###   ########.fr       */
+/*   Updated: 2022/09/08 17:57:43 by aalseri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 int	numbercheck(char **numstr)
 {

@@ -6,11 +6,11 @@
 /*   By: aalseri <aalseri@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/19 17:43:23 by aalseri           #+#    #+#             */
-/*   Updated: 2022/05/27 18:23:22 by aalseri          ###   ########.fr       */
+/*   Updated: 2022/09/08 17:58:00 by aalseri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 int	partition(int *array, int low, int high)
 {

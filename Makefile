@@ -6,48 +6,44 @@
 #    By: aalseri <aalseri@student.42abudhabi.ae>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/24 21:10:12 by aalseri           #+#    #+#              #
-#    Updated: 2022/05/27 18:07:03 by aalseri          ###   ########.fr        #
+#    Updated: 2022/09/08 18:02:34 by aalseri          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = push_swap.a
 
-SRCS = main.c checking_args.c validation_input.c \
-	second_part_setting.c operation_utils1.c \
-	operation_utils2.c sorting_utils1.c \
-	sorting_utils2.c sorting_utils3.c error_utils1.c quick_sort.c
+SRCS = srcs/main.c srcs/checking_args.c srcs/validation_input.c \
+	srcs/second_part_setting.c srcs/operation_utils1.c \
+	srcs/operation_utils2.c srcs/sorting_utils1.c \
+	srcs/sorting_utils2.c srcs/sorting_utils3.c srcs/error_utils1.c srcs/quick_sort.c
+
+CFLAGS = -Wall -Wextra -Werror
 
 OBJS = ${SRCS:.c=.o}
 
-INCLUDES = push_swap.h
+INCLUDES = -I includes
 
 CC = gcc
 
-FLAGS = -Wall -Wextra -Werror
-
 all: ${NAME}
 
-${NAME} :
-	@${MAKE} -C libft
-	$(CC) $(FLAGS) -o push_swap ${SRCS} ./libft/libft.a
-	@${MAKE} clean -C libft
-
-onlypush: 
-	$(CC) -g -o push_swap ${SRCS} ./libft/libft.a
+${NAME} : ${OBJS}
+	@${MAKE} -sC libft
+	$(CC) $(CFLAGS) -o push_swap ${OBJS} ./libft/libft.a
 
 clean:
 	rm -rf ${OBJS}
-	@${MAKE} clean -C libft
+	@${MAKE} clean -sC libft
 
 fclean: clean
 	rm -rf ${NAME} push_swap
-	@${MAKE} fclean -C libft
+	@${MAKE} fclean -sC libft
 
 
 re: fclean all
-	${MAKE} re -C ./libft
+	${MAKE} re -sC ./libft
 
 cltr: fclean
-	rm -rf ${NAME} push_swap push_swap.dSYM 
+	rm -rf ${NAME} push_swap push_swap.dSYM
 
 .PHONY: all clean fclean re

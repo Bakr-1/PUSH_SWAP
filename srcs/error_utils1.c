@@ -6,11 +6,11 @@
 /*   By: aalseri <aalseri@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/15 16:54:07 by aalseri           #+#    #+#             */
-/*   Updated: 2022/05/27 18:18:03 by aalseri          ###   ########.fr       */
+/*   Updated: 2022/09/08 17:57:49 by aalseri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 void	ft_error(char *str, t_swap *array)
 {

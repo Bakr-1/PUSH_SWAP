@@ -6,11 +6,11 @@
 /*   By: aalseri <aalseri@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/23 21:22:38 by aalseri           #+#    #+#             */
-/*   Updated: 2022/05/22 16:20:11 by aalseri          ###   ########.fr       */
+/*   Updated: 2022/09/08 17:57:57 by aalseri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 t_swap	*ra(t_swap *a)
 {

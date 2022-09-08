@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   validation_input.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aalseri <aalseri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: aalseri <aalseri@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/17 18:13:13 by aalseri           #+#    #+#             */
-/*   Updated: 2022/05/23 16:02:23 by aalseri          ###   ########.fr       */
+/*   Updated: 2022/09/08 17:58:10 by aalseri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 t_swap	*ft_adding_numbers(t_swap *array)
 {

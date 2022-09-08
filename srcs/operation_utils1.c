@@ -6,11 +6,11 @@
 /*   By: aalseri <aalseri@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/23 21:11:47 by aalseri           #+#    #+#             */
-/*   Updated: 2022/05/22 16:19:26 by aalseri          ###   ########.fr       */
+/*   Updated: 2022/09/08 17:58:21 by aalseri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 void	num_swap(int *a, int *b)
 {
@@ -22,7 +22,7 @@ void	num_swap(int *a, int *b)
 }
 
 t_swap	*sa(t_swap *array)
-{	
+{
 	num_swap(&array->stacka[array->sizea - 1], \
 	&array->stacka[array->sizea - 2]);
 	ft_putendl_fd(SA, STDOUT_FILENO);

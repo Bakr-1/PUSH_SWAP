@@ -6,14 +6,14 @@
 /*   By: aalseri <aalseri@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/06 21:41:30 by aalseri           #+#    #+#             */
-/*   Updated: 2022/05/27 18:23:27 by aalseri          ###   ########.fr       */
+/*   Updated: 2022/09/08 18:00:24 by aalseri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-# include "./libft/libft.h"
+# include "../libft/libft.h"
 
 # define SA "sa"
 # define SB "sb"

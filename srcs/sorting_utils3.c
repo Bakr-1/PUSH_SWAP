@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   sorting_utils3.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aalseri <aalseri@student.42.fr>            +#+  +:+       +#+        */
+/*   By: aalseri <aalseri@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/26 16:54:45 by aalseri           #+#    #+#             */
-/*   Updated: 2022/05/26 19:13:57 by aalseri          ###   ########.fr       */
+/*   Updated: 2022/09/08 17:58:08 by aalseri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 int	find_max(t_swap *a)
 {

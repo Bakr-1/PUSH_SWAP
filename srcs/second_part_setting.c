@@ -6,11 +6,11 @@
 /*   By: aalseri <aalseri@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/23 22:52:10 by aalseri           #+#    #+#             */
-/*   Updated: 2022/05/27 18:19:22 by aalseri          ###   ########.fr       */
+/*   Updated: 2022/09/08 17:58:58 by aalseri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "../includes/push_swap.h"
 
 t_swap	*rot_min(t_swap *a)
 {
@@ -59,6 +59,7 @@ void	sort_more(t_swap *a)
 	a = sort_3(a);
 	while (a->sizeb)
 		a = run(PA, a);
+	ft_quit(a);
 }
 
 t_swap	*sort_2_or_more(t_swap *a)
