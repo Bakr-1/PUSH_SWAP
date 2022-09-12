@@ -6,13 +6,11 @@
 #    By: aalseri <aalseri@student.42abudhabi.ae>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/24 21:10:12 by aalseri           #+#    #+#              #
-#    Updated: 2022/09/12 19:17:02 by aalseri          ###   ########.fr        #
+#    Updated: 2022/09/12 20:07:31 by aalseri          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = push_swap
-
-OBJS	= ${SRCS:.c=.o}
 
 DIR_SRCS	= srcs
 DIR_OBJS	= objs
