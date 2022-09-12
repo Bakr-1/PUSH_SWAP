@@ -89,5 +89,33 @@ $>make
 It will work as follows:
 
 ```bash
-$>ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
+$>./push_swap 2 1 3 6 5 8
+sa
+pb
+pb
+pb
+sa
+pa
+pa
+pa
+$>./push_swap 0 one 2 3
+Error
+$>
 ```
+
+```bash
+$>ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
+      6
+```
+
+If you want to make sure of the output that it's sorted correctly you can use the tester provided by the school 
+
+for linux you can use checker_linux and for MacOS checker_Mac as follow
+```bash
+$>ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker_OS $ARG
+OK
+$>
+```
+
+If the program checker_OS displays "KO", it means that your push_swap came up
+with a list of instructions that doesn’t sort the numbers.
